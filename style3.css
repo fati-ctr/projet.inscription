@@ -1,0 +1,58 @@
+.{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+body {
+font-family: 'Poppins';
+
+}
+
+header {
+height: 100vh;
+width: 100vw;
+background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/EHXT6IQOB5HGDCVIJ55GQVA5RE.jpg);
+background-size: cover;
+}
+.navbar {
+    position: absolute;
+    padding: 70px; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+     width: 100%;
+    box-sizing: border-box;
+    
+    }
+    .navbar a {
+    color: white;
+    }
+    
+    .navbar .logo{
+    font-size:3em;
+    font-weight: bold;
+    }
+    .navbar .nav-links ul {
+        display:flex;
+        font-size: 2em;
+
+    }
+    .navbar .nav-links ul li {
+        margin: 0 25px;
+    }
+
+    .navbar .nav-links ul li.active a {
+        color: red;
+        font-weight: 600;
+
+    }
+    .nav .nav-pour ul li.pour a {
+        position: absolute;
+        width: 445px;
+        height: 24px;
+
+
+    }
+    

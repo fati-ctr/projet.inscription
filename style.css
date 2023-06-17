@@ -1,0 +1,55 @@
+.{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family : 'poppins';
+
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/EHXT6IQOB5HGDCVIJ55GQVA5RE.jpg);
+    background-size: cover;
+}
+.navbar{
+    position: absolute;
+    margin: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    box-sizing:border-box;
+}
+
+.navbar a {
+    color:white;
+}
+.navbar .logo{
+    font-size: 4em;
+    font-weight:bold ;
+}
+
+
+.navbar .nav-link ul {
+    font-size: 2em;
+    font-weight: bold;
+    
+
+
+    
+}
+.navbar .nav-link ul li.active a {
+   color :blueviolet ;
+   font-weight: 600;
+    
+}
+
+.navbar .nav-pour ul li.reservation a {
+    position: absolute;
+  bottom: 0;
+  left: 0; /* ou right: 0; pour l'aligner sur la droite */
+}
+}
